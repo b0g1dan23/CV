@@ -1,0 +1,13 @@
+.container {
+  max-width: 100rem;
+  border-radius: 10px;
+  background-color: #fff;
+  height: 95%;
+  margin: 8rem auto;
+  box-shadow: $box-shadows;
+}
+
+.content {
+  display: flex;
+  gap: 3rem;
+}

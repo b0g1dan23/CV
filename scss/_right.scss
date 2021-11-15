@@ -1,0 +1,26 @@
+.right {
+    flex: 1;
+
+    &__h2{
+        margin-top: 4rem;
+        font-size: 2rem;
+    }
+
+    &__paragraph{
+        color: $grey-dark-1;
+        margin-top: 2rem;
+        font-size: 1.2rem;
+        max-width: 80ch;
+        font-weight: 500;
+    }
+
+    &__h3{
+        margin-top: 1rem;
+        font-size: 1.4rem;
+    }
+
+    &__span{
+        font-size: 1.2rem;
+        margin-top: 1rem;
+    }
+}  
