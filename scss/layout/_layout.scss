@@ -2,12 +2,31 @@
   max-width: 100rem;
   border-radius: 10px;
   background-color: #fff;
-  height: 95%;
-  margin: 8rem auto;
   box-shadow: $box-shadows;
+
+  @media (max-width:1024px) {
+    margin: 0 auto;
+    height: 100%;
+  }
+
+  @media (max-width:768px) {
+    margin: 5rem auto;
+  }
+
+  @media (max-width:600px) {
+    margin: 0;
+    border-radius: 0;
+    box-shadow: none;
+    height: 100%;
+  }
 }
 
 .content {
   display: flex;
   gap: 3rem;
+
+  @media (max-width:600px) {
+    flex-direction: column;
+    gap: 0;
+  }
 }
