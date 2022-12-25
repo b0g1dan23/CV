@@ -262,6 +262,18 @@ body {
     @media (max-width: 600px) {
       .right__h2 {
         text-align: center; } }
+  .right__ul {
+    list-style-type: none;
+    margin: 2rem 0; }
+  .right__table {
+    border-collapse: collapse;
+    width: 100%; }
+    .right__table td, .right__table th {
+      border: 1px solid #272c35;
+      padding: 0.5rem;
+      text-align: center; }
+    .right__table tr:nth-child(even) {
+      background-color: #9aebfe; }
   .right__paragraph {
     color: #171527;
     margin-top: 2rem;

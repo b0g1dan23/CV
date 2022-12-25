@@ -1,6 +1,6 @@
 {
   "devDependencies": {
-    "node-sass": "^6.0.1"
+    "node-sass": "^8.0.0"
   },
   "name": "cv",
   "version": "1.0.0",
@@ -10,5 +10,13 @@
     "compile:sass": "node-sass scss/main.scss css/style.css --watch"
   },
   "author": "Bogdan Stevanovic",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/b0g1dan23/CV.git"
+  },
+  "bugs": {
+    "url": "https://github.com/b0g1dan23/CV/issues"
+  },
+  "homepage": "https://github.com/b0g1dan23/CV#readme"
 }
